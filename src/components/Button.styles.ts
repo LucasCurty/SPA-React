@@ -7,10 +7,10 @@ interface ButtonContainerProps{
 }
 
 const buttonVariants = {
-    primary: 'purple',
-    secondary: 'blue',
-    danger: 'red',
-    success: 'green'
+    primary: '#333a23',
+    secondary: '#000000',
+    danger: '#800000',
+    success: '#007000'
 }
 
 export const ButtonContainer = styled.button<ButtonContainerProps> `
@@ -20,7 +20,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps> `
     border-radius: 5px;
     margin-right: 5px;
 
-    background-color: ${props => props.theme.primary};
+    background-color: ${props => props.theme['green-500']};
     color: ${props => props.theme.white};
 
     /* ${ props => {
