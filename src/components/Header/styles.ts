@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
 
   img {
-    height: 4rem;
+    height: 3rem;
   }
 
   nav {

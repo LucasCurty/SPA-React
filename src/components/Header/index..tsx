@@ -1,5 +1,5 @@
 import { HeaderContainer } from './styles'
-import Logomenu from '../../assets/logo-menu.svg'
+import Logomenu from '../../assets/jogos.png'
 import { Timer, Scroll } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 

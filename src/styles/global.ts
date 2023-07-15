@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family: Verdana, Geneva, Tahoma, sans-serif ;
         background-color: ${(props) => props.theme['gray-900']};
         color: ${(props) => props.theme['gray-300']};
+        -webkit-font-smoothing: antialiased;
     }    
     body, input, textearea, button{
         font-family: 'Roboto', sans-serif;
